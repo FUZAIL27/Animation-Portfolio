@@ -220,9 +220,9 @@ export default function Hero() {
             className="grid grid-cols-3 gap-4 mb-8"
           >
             {[
-              { val: '2+', label: 'Years Exp' },
+              { val: '1+', label: 'Years Exp' },
               { val: '10+', label: 'Projects' },
-              { val: '5+', label: 'Technologies' },
+              { val: '15+', label: 'Technologies' },
             ].map(s => (
               <div key={s.label} className="glass rounded-xl p-3 text-center">
                 <div className="font-display font-bold text-xl gradient-text">{s.val}</div>
